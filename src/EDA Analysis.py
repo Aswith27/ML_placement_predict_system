@@ -350,7 +350,25 @@ if target is not None:
 
 
        plt.close()
-
+print(df[df.duplicated()].head())
 
 print("\nEDA Completed Successfully.")
 print("All figures are saved in:", OUTPUT_FOLDER)
+
+duplicates = df[df.duplicated(keep=False)]
+
+print(duplicates.shape)
+print(duplicates.head())
+
+print("\nStatistical Summary")
+print(df.describe())
+
+print("\nUnique Values")
+print(df.nunique())
+
+print("\nPopularity Statistics")
+print(df["popularity"].describe())
+
+print("\nTop 20 Genres")
+print(df["track_genre"].value_counts().head(20))
+
