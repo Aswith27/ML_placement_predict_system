@@ -1,0 +1,33 @@
+MULTINOMIAL LOGISTIC REGRESSION RESULTS
+===========================================================================
+
+Dataset: C:\Users\Aswith\OneDrive\Desktop\ML_project_new(placement_prediction)\dataset\placement_predict_50K_Raw.csv
+Target: CGPA_Tier
+Number of classes: 3
+
+CLASS MAPPING
+----------------------------------------
+0 = High
+1 = Low
+2 = Mid
+
+MODEL PERFORMANCE
+----------------------------------------
+Accuracy: 0.9895
+Accuracy (%): 98.95%
+Precision: 0.9895
+Recall: 0.9895
+F1 Score: 0.9895
+Cross-Entropy Loss: 0.0330
+
+CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+        High       1.00      1.00      1.00      3336
+         Low       0.98      0.99      0.99      3347
+         Mid       0.99      0.98      0.98      3317
+
+    accuracy                           0.99     10000
+   macro avg       0.99      0.99      0.99     10000
+weighted avg       0.99      0.99      0.99     10000
