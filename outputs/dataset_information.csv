@@ -1,0 +1,9 @@
+Information,Value
+Original Rows,50000
+Original Columns,32
+Rows Used,50000
+Number of Features,31
+Training Samples,40000
+Testing Samples,10000
+Target Column,PlacementStatus
+Number of Classes,2

@@ -1,0 +1,10 @@
+Item,Details
+Input Dataset,C:\Users\Aswith\OneDrive\Desktop\ML_project_new(placement_prediction)\dataset\final_preprocess_M2.csv
+Output Folder,C:\Users\Aswith\OneDrive\Desktop\ML_project_new(placement_prediction)\outputs\DBSCAN_Pre_Processed_dataset_M4_outputs
+Original Dataset Modified,NO
+Features Used,"CGPA, HistoryOfBacklogs, Internships"
+Preprocessing,Existing preprocessed dataset
+Scaling,StandardScaler
+Algorithm,DBSCAN
+eps,0.8
+min_samples,10
